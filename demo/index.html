@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TradingPlus Demo — Lightweight Charts (fake data)</title>
+    <meta
+      name="description"
+      content="Minimal public demo of TradingPlus chart UX using synthetic OHLCV and TradingView Lightweight Charts."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"
+      defer
+    ></script>
+    <script src="./data.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="page">
+      <header class="top">
+        <a class="brand" href="../index.html">
+          <img src="../docs/screenshots/logo.png" alt="TradingPlus" />
+          <div>
+            <strong>TradingPlus</strong>
+            <span>Public demo · fake data</span>
+          </div>
+        </a>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://tradingplus.org" target="_blank" rel="noopener"
+            >Open tradingplus.org</a
+          >
+          <a
+            class="btn btn-ghost"
+            href="https://tradingplus.yunai.com.cn"
+            target="_blank"
+            rel="noopener"
+            >国内站登录</a
+          >
+        </div>
+      </header>
+
+      <section class="hero">
+        <h1>Global charts &amp; AI strategy workspace</h1>
+        <p>
+          This page is a tiny open demo: synthetic candles + Lightweight Charts. HQ markers and
+          symbol switching illustrate the product feel — production engines, screener batches, and
+          assistants stay on the hosted product.
+        </p>
+      </section>
+
+      <section class="panel" aria-label="Demo chart">
+        <div class="toolbar">
+          <label for="symbol">Symbol</label>
+          <select id="symbol" aria-label="Select demo symbol"></select>
+          <span class="chip" id="last-price">loading…</span>
+        </div>
+        <div id="chart" role="img" aria-label="Candlestick chart demo"></div>
+      </section>
+
+      <p class="note">
+        <strong>Demo only.</strong> Prices are generated locally. For live markets, HQ entry,
+        screener, Yunai/CH, and billing, use the hosted product.
+      </p>
+
+      <div class="features">
+        <article class="feature">
+          <h3>HQ entry (product)</h3>
+          <p>High-quality entry cues on charts — marketed on the live product, mocked here.</p>
+        </article>
+        <article class="feature">
+          <h3>Screener (product)</h3>
+          <p>Multi-market daily batch scans. Contact support for custom universes.</p>
+        </article>
+        <article class="feature">
+          <h3>Yunai / CH (product)</h3>
+          <p>AI assistants for research Q&amp;A — available after login on hosted sites.</p>
+        </article>
+      </div>
+
+      <footer>
+        <a href="../README.md">README</a> ·
+        <a href="../docs/architecture.md">Architecture</a> · MIT for this demo repo · Product ©
+        TradingPlus
+      </footer>
+    </div>
+  </body>
+</html>
