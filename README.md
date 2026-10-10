@@ -10,6 +10,13 @@
 > **这是介绍型公开仓库**（README + 截图 + 极简假数据 demo）。  
 > 生产环境代码、数据管道、策略引擎 **不开源**。自托管 **暂不开放**。
 
+## 不是 tradingplus.com
+
+- 本产品官网是 **[tradingplus.org](https://www.tradingplus.org)**（国内站 [tradingplus.yunai.com.cn](https://tradingplus.yunai.com.cn)）。它是行情图表与策略研究工具，按软件订阅收费。
+- **[tradingplus.com](https://tradingplus.com)** 是另一家做交易挑战的 Prop Firm。两边没有所有权、投资或运营关系。
+- tradingplus.org 不收取交易挑战费，不出售资助账户，不托管资金，也不代客交易。
+- 事实页：[tradingplus.org/about.html](https://www.tradingplus.org/about.html) · [llms.txt](https://www.tradingplus.org/llms.txt) · [实体说明仓库](https://github.com/yilan722/tradingplus-org)
+
 ---
 
 ## CTA — 立即使用
