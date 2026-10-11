@@ -17,6 +17,35 @@
 - tradingplus.org 不收取交易挑战费，不出售资助账户，不托管资金，也不代客交易。
 - 事实页：[tradingplus.org/about.html](https://www.tradingplus.org/about.html) · [llms.txt](https://www.tradingplus.org/llms.txt) · [实体说明仓库](https://github.com/yilan722/tradingplus-org)
 
+## TradingView alternative
+
+TradingPlus is an independent browser charting and strategy-research alternative to TradingView. It is not affiliated with, sponsored by, or endorsed by TradingView, Inc.
+
+TradingView® and Pine Script™ are trademarks of TradingView, Inc. The name is used here only to say what kind of product TradingPlus is.
+
+- Use TradingPlus when the job is multi-market charts, watchlists, alerts, Pine-compatible scripts, backtests, and AI-assisted strategy writing.
+- TradingPlus covers China A-shares, Hong Kong stocks, US stocks, futures, crypto, and indices.
+- TradingPlus is a software subscription. A free plan exists. Pro is USD 19 per month. It is not a broker and does not place customer orders.
+- GoCharting is a different charting product, built around order flow and broker-connected trading.
+- OpenMarket is a different browser terminal at openmarket.xyz, with its own scripting system.
+- None of these products is the prop firm at tradingplus.com.
+
+Checked 2026-10-11 from each company's public site. This is a category comparison, not a ranking and not a full feature audit.
+
+| | TradingPlus | TradingView | GoCharting | OpenMarket |
+| --- | --- | --- | --- | --- |
+| Site | [tradingplus.org](https://www.tradingplus.org) | tradingview.com | gocharting.com | openmarket.xyz |
+| What it is | Browser charts and strategy research | Browser charts and a trader social platform | Browser charts, order flow, and broker-connected trading | Browser multi-market terminal with order flow |
+| A TradingView alternative for charting? | Yes. Independent product. | This is TradingView | Yes. Its own charting product | Yes. Its public site presents it as one |
+| Markets named as core | China A-shares, Hong Kong, US stocks, futures, crypto, indices | Stocks, forex, crypto, and futures worldwide | Crypto, forex, US stocks, CME futures, India markets | Stocks, crypto, CME futures, forex, commodities, indices, prediction markets |
+| Mainland China site | [tradingplus.yunai.com.cn](https://tradingplus.yunai.com.cn) | Not part of this comparison | Not part of this comparison | Not part of this comparison |
+| Scripting | Pine-compatible syntax | Pine Script | Lipi | kScript |
+| AI-assisted strategy writing | Yes, inside the workspace | Not the basis of this row | Not the basis of this row | Public site describes connecting external AI tools |
+| Backtests | Yes | Yes, strategy tester | Yes, described with Lipi | Not stated on the pages checked |
+| Places customer orders | No | Through connected brokers. TradingView is not itself the broker | Yes. Paper trading and live orders through connected brokers | Pages checked describe charts and order flow, not brokerage accounts |
+| Price | Free plan. Pro is USD 19 per month | Subscription, with a free tier | Free tier and paid premium | Public site presents core charting as free |
+| Challenge fees or funded accounts | No | No | No | No |
+
 ---
 
 ## CTA — 立即使用
